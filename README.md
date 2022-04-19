@@ -13,10 +13,7 @@
 
 **Description**: 
 
-Explain what your project is trying to accomplish and how you utilized graph technology to achieve those goals. 
-Describe how your submission is relevant to the problem statement and why it is impactful to the world. Remember to link your submission video here.
-
-What our project is trying to accomplish is that News articles with the same content are identified and associated with each other in order to prevent inflation of information importance. Attempt to identify duplicate news articles that we scrape from Google or internet search results and what sources those articles commonly come from. This information is used to better enable the public to make sure they're getting the most important and diverse information.
+What our project is trying to accomplish here is that News articles with the same content are identified and associated with each other in order to prevent inflation of information importance. Attempt to identify duplicate news articles that we scrape from Google or internet search results and what sources those articles commonly come from. This information is used to better enable the public to make sure they're getting the most important and diverse information.
 
 Therefore we are able to do those things with tigerGraph : 
 1. Identify duplicates in a static news dataset in the graph,
@@ -56,7 +53,7 @@ Other additions:
  2. newsapi.org : this is where we took the data
  3. python : we used it to treat the excel file
  4. gsql-language : the graph sql for queries in tigerGraph to get information from our data
- 5. gsql-graph-algorithms : AI graph we used according to the model we used for our project
+ 5. gsql-graph-algorithms : AI graph we used according to our needs
 
  - **Visuals**: Feel free to include other images or videos to better demonstrate your work.
  - Link websites or applications if needed to demonstrate your work.
@@ -75,18 +72,18 @@ State any dependencies and their versions needed to be installed to test this pr
 
 ## Known Issues and Future Improvements
 
-We're developing something like scholar Google or connected papers to get our solution more useful for users.
-The more articles are,the more time the system takes to build the graph.but this is not a big issue because tigerGraph handles this.
+We are developing something like Google scholar or connected papers to make our solution more useful for users.
+The more articles there are, the more time the system takes to build the graph, but this is not a big problem because TigerGraph handles it.
 
 ## Reflections
 
 In order to carry out our project we followed some strategic plans which were really helpful :
 
-1. We analysed some problems that touch the whole world ,then we made a brainstorming
-2. We then decided to jump on google issue because this one touches users around the world
-3. We found a way to solve the problem with tigerGraph
-4. We had a privilege to attend a  TigerGraph training (2 days) orginized by SaH Analytics International (https://www.linkedin.com/company/sah-analytics-international/) and delivered by Mr Hanif Ullah Khan, Data engineer and TigerGraph Analyst in order to handle the tool.
-5. We finally started to work on the implementation and prepared to show  the result up of to everyone.
+1. We first analyzed some issues that affect the whole world and then we brainstormed.
+2. So we decided to look into Google, as it affects users around the world.
+3. We then found a way to solve the problem with tigerGraph
+4. We had a privilege to attend a TigerGraph training (2 days) orginized by SaH Analytics International (https://www.linkedin.com/company/sah-analytics-international/) and delivered by Mr Hanif Ullah Khan, Data engineer and TigerGraph Analyst in order to handle the tool.
+5. We finally started working on the implementation and got ready to show the result to everyone.
 
 ## References
 - [articles] https://newsapi.org/
