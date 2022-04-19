@@ -1,14 +1,15 @@
-# Template for TigerGraph Graph for All Challenge Submissions
-Use this template for your project submisison and edit the README following the text below. Add your project code and data (if public) to the repository. 
-
-# Project Title
+# Reduce The Noise Of News Search
 **Contributers and Contact Information: [ ]**
 1. AMANI Kouakou Noé,leader (+225 0142662716)
 2. Tuo Navigué (+225 0759190122)
 3. Eloiflin Damo (+225 0767516289)
 
-**Problem Statement addressed (or explain your own): [ ]**
-Google, while a wonderful resource for quick-fix questions, starts to repeat search results after the third page, this is especially true for news articles. A big reason for this is duplicate resources from common sister agencies like Associate Press and all the newspapers that use its articles, as well as reshares or reposts, artificially inflate the volume of an article/post and its importance. Re-posts or re-shares often are also changed slightly so Google does not see them as duplicates. This causes inflated importance of some posts (going “viral” unnecessarily) and gives a noisy Google search experience that may be hiding more relevant news articles from end-users.
+**Problem Statement addressed :  
+
+- Google, while a wonderful resource for quick-fix questions, starts to repeat search results after the third page, this is especially true for news articles. A big reason for this is duplicate resources from common sister agencies like Associate Press and all the newspapers that use its articles, as well as reshares or reposts, artificially inflate the volume of an article/post and its importance. Re-posts or re-shares often are also changed slightly so Google does not see them as duplicates. 
+- This causes inflated importance of some posts (going “viral” unnecessarily) and gives a noisy Google search experience that may be hiding more relevant news articles from end-users.
+
+
 **Description**: 
 
 Explain what your project is trying to accomplish and how you utilized graph technology to achieve those goals. 
@@ -48,13 +49,13 @@ Other additions:
 
  We retrieved 100 articles through general news API that we cleaned and prepared for our model.You can find the dataset in this file (csv format). 
 
- - **Technology Stack**: Describe technologies and programming languages used. 
- tgcloud.io : the plateform we used to build the graph and train the model
- newsapi.org : this is where we took the data
- python : we used it to treat the excel file
- gsql-language : the graph sql for queries in tigerGraph to get information from our data
- gsql-graph-algorithms : AI graph we used according to the model we used for our project
- 
+ - **Technology Stack**:
+ 1. tgcloud.io : the plateform we used to build the graph and train the model
+ 2. newsapi.org : this is where we took the data
+ 3. python : we used it to treat the excel file
+ 4. gsql-language : the graph sql for queries in tigerGraph to get information from our data
+ 5. gsql-graph-algorithms : AI graph we used according to the model we used for our project
+
  - **Visuals**: Feel free to include other images or videos to better demonstrate your work.
  - Link websites or applications if needed to demonstrate your work. 
 
@@ -68,11 +69,13 @@ Please give detailed instructions on installing, configuring, and running the pr
 
 This can include:
 1. Clone repository
-2. Install dependencies
-3. Access data
-4. Steps to build/run project
+2. Donwload the zipped file **export_4538711112.tar.gz** in the src folder
+3. Upload it on tgcloud.io
+4. load the csv file **data_tesla_2.csv** and **relation_graph.csv** located in the src folder
+5. Run Queries such us identifying duplicate articles
 
 ## Known Issues and Future Improvements
+We're developing something like scholar Google or connected papers to get our solution more useful for users.
 
 Explain known liminations within the project and potential next steps. 
 
@@ -81,5 +84,8 @@ Explain known liminations within the project and potential next steps.
 Review the steps you took to create this project and the resources you were provided. Feel free to indiciate room for improvement and general reflections.
 
 ## References
+[articles] https://newsapi.org/
+[tigerGraph] https://tgcloud.io/
+[gsql-graph-algorithms] https://github.com/tigergraph/gsql-graph-algorithms
+[Similarity-data-science-in-Tiger-graph-resources]  https://info.tigergraph.com/hubfs/Graph%20+%20AI%20World/Graph-AI-FPGA.pptx.pdf and https://www.tigergraph.com.cn/wp-content/uploads/2021/04/EN_OReilly-book-Grah-powered-Analytics-and-Machine-Learning-with-TIgerGraph-Early-release-April-2021.pdf
 
-Please give credit to other projects, videos, talks, people, and other sources that have inspired and influenced your project. 
