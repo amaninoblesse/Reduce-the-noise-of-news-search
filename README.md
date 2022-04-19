@@ -1,8 +1,8 @@
 # Reduce The Noise Of News Search
 **Contributers and Contact Information: [ ]**
-1. AMANI Kouakou Noé,leader (+225 0142662716)
-2. Tuo Navigué (+225 0759190122)
-3. Eloiflin Damo (+225 0767516289)
+1. AMANI Kouakou Noé,leader (+225 0142662716, kouakounoeamani1@gmail.com)
+2. Tuo Navigué (+225 0759190122, tuo.navigue229@gmail.com)
+3. Eloiflin Damo (+225 0767516289, damoeloiflin@gmail.com)
 
 **Problem Statement addressed :  
 
@@ -65,9 +65,6 @@ State any dependencies and their versions needed to be installed to test this pr
 
 ## Installation
 
-Please give detailed instructions on installing, configuring, and running the project so judges can fully replicate and assess it. 
-
-This can include:
 1. Clone repository
 2. Donwload the zipped file **export_4538711112.tar.gz** in the src folder
 3. Upload it on tgcloud.io
@@ -77,15 +74,15 @@ This can include:
 ## Known Issues and Future Improvements
 We're developing something like scholar Google or connected papers to get our solution more useful for users.
 
-Explain known liminations within the project and potential next steps. 
+The more articles are,the more time the system takes to build the graph.but this is not a big issue because tigerGraph handles this.
 
 ## Reflections
 
 Review the steps you took to create this project and the resources you were provided. Feel free to indiciate room for improvement and general reflections.
 
 ## References
-[articles] https://newsapi.org/
-[tigerGraph] https://tgcloud.io/
-[gsql-graph-algorithms] https://github.com/tigergraph/gsql-graph-algorithms
-[Similarity-data-science-in-Tiger-graph-resources]  https://info.tigergraph.com/hubfs/Graph%20+%20AI%20World/Graph-AI-FPGA.pptx.pdf and https://www.tigergraph.com.cn/wp-content/uploads/2021/04/EN_OReilly-book-Grah-powered-Analytics-and-Machine-Learning-with-TIgerGraph-Early-release-April-2021.pdf
+- [articles] https://newsapi.org/
+- [tigerGraph] https://tgcloud.io/
+- [gsql-graph-algorithms] https://github.com/tigergraph/gsql-graph-algorithms
+- [Similarity-data-science-in-Tiger-graph-resources]  https://info.tigergraph.com/hubfs/Graph%20+%20AI%20World/Graph-AI-FPGA.pptx.pdf and https://www.tigergraph.com.cn/wp-content/uploads/2021/04/EN_OReilly-book-Grah-powered-Analytics-and-Machine-Learning-with-TIgerGraph-Early-release-April-2021.pdf
 
