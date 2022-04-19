@@ -3,6 +3,7 @@
 1. AMANI Kouakou Noé,leader (+225 0142662716, kouakounoeamani1@gmail.com)
 2. Tuo Navigué (+225 0759190122, tuo.navigue229@gmail.com)
 3. Eloiflin Damo (+225 0767516289, damoeloiflin@gmail.com)
+4. Blé Yatana Jean De Dieu (+225 0789454253, blejean2930@gmail.com)
 
 **Problem Statement addressed :  
 
@@ -38,6 +39,7 @@ Using the fastest tool which is tigerGraph to better enable the public to make s
 - Ambitious and complex graph
 
 
+
 - Applicable graph solution 
 
 The machine learning model is open-source on Github and is flexible enough to be pointed at any news dataset that has standard metadata such as Google News or social media news feeds like Twitter, and allow for the similarity threshold to be modified.
@@ -57,7 +59,7 @@ Other additions:
  5. gsql-graph-algorithms : AI graph we used according to the model we used for our project
 
  - **Visuals**: Feel free to include other images or videos to better demonstrate your work.
- - Link websites or applications if needed to demonstrate your work. 
+ - Link websites or applications if needed to demonstrate your work.
 
 ## Dependencies
 
@@ -72,13 +74,19 @@ State any dependencies and their versions needed to be installed to test this pr
 5. Run Queries such us identifying duplicate articles
 
 ## Known Issues and Future Improvements
-We're developing something like scholar Google or connected papers to get our solution more useful for users.
 
+We're developing something like scholar Google or connected papers to get our solution more useful for users.
 The more articles are,the more time the system takes to build the graph.but this is not a big issue because tigerGraph handles this.
 
 ## Reflections
 
-Review the steps you took to create this project and the resources you were provided. Feel free to indiciate room for improvement and general reflections.
+In order to carry out our project we followed some strategic plans which were really helpful :
+
+1. We analysed some problems that touch the whole world ,then we made a brainstorming
+2. We then decided to jump on google issue because this one touches users around the world
+3. We found a way to solve the problem with tigerGraph
+4. We had a privilege to attend a  TigerGraph training (2 days) orginized by SaH Analytics International (https://www.linkedin.com/company/sah-analytics-international/) and delivered by Mr Hanif Ullah Khan, Data engineer and TigerGraph Analyst in order to handle the tool.
+5. We finally started to work on the implementation and prepared to show  the result up of to everyone.
 
 ## References
 - [articles] https://newsapi.org/
