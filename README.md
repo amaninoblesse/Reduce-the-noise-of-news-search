@@ -1,7 +1,7 @@
 # Reduce The Noise Of News Search
 **Contributers and Contact Information: [ ]**
 1. AMANI Kouakou Noé,leader (+225 0142662716, kouakounoeamani1@gmail.com)
-2. Tuo Navigué (+225 0759190122, tuo.navigue229@gmail.com)
+2. Tuo Navigué (+225 0759190122, navigue.tuo229@gmail.com)
 3. Eloiflin Damo (+225 0767516289, damoeloiflin@gmail.com)
 4. Blé Yatana Jean De Dieu (+225 0789454253, blejean2930@gmail.com)
 
@@ -19,7 +19,7 @@ Therefore we are able to do those things with tigerGraph :
 1. Identify duplicates in a static news dataset in the graph,
 2. Identify if a new article is a duplicate of an existing article in the graph, 
 3. Enable others to use the similarity model on news datasets, and
-4. Allow for a search engine to traverse the graph and retrieve the hyper-node (and the articles/posts it 
+4. Allow for a search engine to traverse the graph and retrieve the hyper-node (and the articles/posts it relates to) for retrieval and display
 
 To do so ,we took 30-50 news articles and posts (even distribution if possible) and create a hypergraph of as many duplicate or near duplicate articles .Then,we assessed the metadata for duplicate information to create a similarity score, the most similar articles/posts  create the cluster of articles/posts related to each hyper-node. We decided the threshold for similarity which is over 80% (0.80 f-score) similarity on metadata fields . Representing the similarity of metadata between hyper-nodes allows for the solution to scale so that as new news articles/posts are posted, the metadata can be queried to identify if the new article/post is an existing duplicate, or a new article/post.
 
@@ -35,7 +35,7 @@ Using the fastest tool which is tigerGraph to better enable the public to make s
 
 - Ambitious and complex graph
 
-
+Our solution takes less time to find the best information ,highlighting copyright and fight against "fake news" because it goes to the root of the information and then verifies the author .
 
 - Applicable graph solution 
 
@@ -55,18 +55,17 @@ Other additions:
  4. gsql-language : the graph sql for queries in tigerGraph to get information from our data
  5. gsql-graph-algorithms : AI graph we used according to our needs
 
- - **Visuals**: Feel free to include other images or videos to better demonstrate your work.
- - Link websites or applications if needed to demonstrate your work.
+ - **Visuals**:
+ - [demonstration] https://www.youtube.com/watch?v=GVl-a1p6oG8
 
 ## Dependencies
-
-State any dependencies and their versions needed to be installed to test this project. This may include programming languages, frameworks, libraries, and etc. 
+None
 
 ## Installation
 
 1. Clone repository
 2. Donwload the zipped file **export_4538711112.tar.gz** in the src folder
-3. Upload it on tgcloud.io
+3. Upload it to tgcloud.io
 4. load the csv file **data_tesla_2.csv** and **relation_graph.csv** located in the src folder
 5. Run Queries such us identifying duplicate articles
 
